@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "title": "TOMATO",
+      "cost": "30",
+      "catego": "vegitable",
+      "url": "www.potato.com",
+      "id": 1
+    },
+    {
+      "title": "APPLE",
+      "cost": "100",
+      "catego": "fruit",
+      "url": "www.apple.com",
+      "id": 2
+    },
+    {
+        "title": "BANANA",
+        "cost": "46",
+        "catego": "fruit",
+        "url": "www.banana.com",
+        "id": 3
+      },
+    {
+      "title": "ORANGE",
+      "cost": "50",
+      "url": "www.orange.com",
+      "id": 4
+    },
+    {
+      "title": "BENGAN",
+      "cost": "20",
+      "catego": "provision",
+      "url": "www.bengan.com",
+      "id": 5
+    },
+    {
+      "title": "GRAPS",
+      "cost": "60",
+      "catego": "provision",
+      "url": "www.bengan.com",
+      "id": 6
+    }
+  ]
+}
