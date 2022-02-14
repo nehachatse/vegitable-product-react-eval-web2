@@ -29,7 +29,7 @@ export default function ProductInput({submitProduct}) {
                 <div><input type="text" placeholder="Enter product name..." name="title" value={formData.title} onChange={onchangeHandle}/></div>
                 <div><input type="number" placeholder="Enter product cost..." name="cost" value={formData.cost} onChange={onchangeHandle} /></div>
                 <div>
-                    <select name="catego" value={formData.value} onChange={onchangeHandle} style={{width:"105%"}}>
+                    <select name="catego" value={formData.value} onChange={onchangeHandle} style={{width:"102%"}}>
                         <option value="">SELECT</option>
                         <option value="fruit">FRUIT</option>
                         <option value= "vegitable">VEGETABLE</option>
@@ -37,7 +37,7 @@ export default function ProductInput({submitProduct}) {
                     </select>
                 </div>
                 <div><input type="text" placeholder="Paste Image URL Here" name="url" value={formData.url} onChange={onchangeHandle}/></div>
-                <div><input type="submit" value="SUBMIT"  style={{width:"105%"}}/> </div>
+                <div><input type="submit" value="SUBMIT" className={styles.submit}/> </div>
 
                 
                 

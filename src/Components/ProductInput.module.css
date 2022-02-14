@@ -27,3 +27,16 @@ form div input, select{
     color: orangered;
 }
 
+.submit{
+    width:102%;
+    color: white;
+    background: orangered;
+}
+.submit:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
